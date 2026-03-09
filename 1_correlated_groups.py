@@ -162,4 +162,3 @@ if __name__ == "__main__":
 
     plot_results(results, active_per_group)
 
-#test commit
