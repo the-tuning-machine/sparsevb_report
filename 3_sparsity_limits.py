@@ -115,7 +115,7 @@ def plot_sparsity_results(results):
                 yerr=clip_yerr(results['fpr_mean'], results['fpr_std'], 0, 1),
                 marker='^', capsize=3, color='red')
     ax.set_xlabel('s / n'); ax.set_ylabel('False positive rate')
-    ax.set_title('False positive rate: FP / (p - s)')
+    ax.set_title('False positive rate')
     ax.set_ylim(-0.05, max(0.2, max(results['fpr_mean']) * 1.2)); ax.grid(True, alpha=0.3)
     ax.axvline(x=0.5, color='gray', linestyle='--', alpha=0.5)
 

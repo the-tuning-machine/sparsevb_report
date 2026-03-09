@@ -72,7 +72,7 @@ Comparison of VB Laplace, VB Gaussian, and LASSO on the riboflavin dataset
 
 ### Additional Requirements
 ```bash
-pip install rpy2
+pip install pandas rpy2
 ```
 
 ### Running
